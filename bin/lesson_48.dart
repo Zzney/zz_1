@@ -91,7 +91,7 @@ void main(){
   print(anotherNums);
 
   for(int i = 0; i < anotherNums.length; i += 2){
-    print('i = $1');
+    print('i = $i');
     print(anotherNums[i]);
     }
 

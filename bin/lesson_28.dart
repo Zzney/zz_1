@@ -70,7 +70,7 @@ int dgt2(int num1, int num2) {
     return -1;
   }
   int digit = -1;
-  if (num2 == 1) digit = num1%10
+  if (num2 == 1) digit = num1%10;
   return num1 % 10;
 }
 

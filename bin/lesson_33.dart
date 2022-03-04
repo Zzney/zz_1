@@ -1,6 +1,6 @@
 void main(){
   operation('+');
-  resalt ()
+  print('');
 }
 Function operation (String ch){
   switch (ch) {
