@@ -54,10 +54,11 @@ class Baby extends Parent {
         return 'baby' ; }
 }
 void main (){
-  Child kid = Child(0);
-  kid.printStr();
-  print(kid);
-  print(kid.plus10);
+  Child rebenok = Child(0);
+  rebenok.printStr();
+  print(rebenok);
+  print(rebenok.plus10);
 
+  // список наследников
   List <Parent> children = [Child(3), Baby(5), Baby(7), Parent('str', 3)];
 }
